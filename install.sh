@@ -17,6 +17,7 @@ packages=(
     cmatrix
     unzip
     ansible
+    sshpass
     wget
     build-essential
     software-properties-common
