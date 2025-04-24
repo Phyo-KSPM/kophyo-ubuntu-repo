@@ -16,6 +16,7 @@ packages=(
     neofetch
     cmatrix
     unzip
+    ansible
     wget
     build-essential
     software-properties-common
