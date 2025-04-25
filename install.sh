@@ -12,6 +12,7 @@ packages=(
     nginx
     htop
     net-tools
+    traceroute
     screenfetch
     neofetch
     cmatrix
