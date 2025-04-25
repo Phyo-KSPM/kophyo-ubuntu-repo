@@ -2,7 +2,7 @@
 
 # Update package list
 echo "🔄 Updating package list..."
-sudo apt update
+sudo apt update >/dev/null 2>&1
 
 # List of packages to install
 packages=(
