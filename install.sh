@@ -28,7 +28,7 @@ packages=(
 echo "📦 Installing packages..."
 for pkg in "${packages[@]}"; do
     echo "➡️ Installing $pkg"
-    sudo apt install -y "$pkg"
+    sudo apt install -y "$pkg" >/dev/null 2>&1
 done
 
 echo "✅ All packages installed successfully."
